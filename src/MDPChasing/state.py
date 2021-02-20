@@ -2,28 +2,32 @@ import numpy as np
 import bisect
 import functools as ft
 
-class GetAgentPosFromState:
+class GetAgentsPositionsFromState:
     def __init__(self, agentIds, posIndex):
         self.agentIds = agentIds
         self.posIndex = posIndex
 
     def __call__(self, state):
         state = np.asarray(state)
-        agentStates = state[self.agentIds]
-        if np.array(agentStates).ndim > 1:
-            agentPos = np.asarray([state[self.posIndex] for state in agentStates])
-        else:
-            agentPos = agentStates[self.posIndex]
-        return agentPos
+        agentsStates = state[self.agentIds]
+        agentsPositions = np.asarray([state[self.posIndex] for state in agentsStates])
+        return agentsPositions
 
-class GetStateForPolicyGivenIntention:
-    def __init__(self, agentSelfId):
-        self.agentSelfId = agentSelfId
+def getStateOrActionFirstPersonPerspective(stateOrAction, goalId, multiAgentsIds, selfId, blocksId = []):
+    selfIndexInMultiAgents = list(multiAgentsIds).index(selfId)
+    agentsIds = list(multiAgentsIds).copy()
+    agentsIds.insert(0, agentsIds.pop(selfIndexInMultiAgents))
+    IdsRelative = agentsIds.copy()
+    for Id in list(np.array([goalId]).flatten()):
+        bisect.insort(IdsRelative, Id)
+    Ids = list(IdsRelative) + list(blocksId)
+    sortedIds = np.array(Ids)
+    stateOrActionRelative = np.array(stateOrAction)[sortedIds]
+    return stateOrActionRelative
 
-    def __call__(self, state, intentionId):
-        IdsRelativeToIntention = list(self.agentSelfId.copy())
-        for Id in list(intentionId):
-            bisect.insort(IdsRelativeToIntention, Id)
-        sortedIds = np.array(IdsRelativeToIntention)
-        stateRelativeToIntention = np.array(state)[sortedIds]
-        return stateRelativeToIntention
+def getStateOrActionThirdPersonPerspective(stateOrAction, goalId, multiAgentsIds, blocksId = []):
+    IdsRelative = list(np.array([goalId]).flatten()) + list(multiAgentsIds)
+    Ids = list(IdsRelative) + list(blocksId)
+    sortedIds = np.array(np.sort(Ids))
+    stateOrActionRelative = np.array(stateOrAction)[sortedIds]
+    return stateOrActionRelative

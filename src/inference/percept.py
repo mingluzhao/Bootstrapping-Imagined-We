@@ -17,6 +17,7 @@ class SampleNoisyAction:
         self.noise = noise
 
     def __call__(self, acturalSingleAgentAction):
+        #print(acturalSingleAgentAction)
         perceivedAction = np.random.multivariate_normal(acturalSingleAgentAction, np.diag([self.noise**2] * len(acturalSingleAgentAction)))
         return perceivedAction
 

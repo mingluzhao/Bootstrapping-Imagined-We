@@ -1,4 +1,4 @@
-# bootstrappingImaginedWe
+# Bootstrapping Imagined We
 
 
 ### Required Packages
@@ -9,28 +9,18 @@
 * Pandas 0.24.2
 
 
-### Table of Contents
+### To generate results
 
-* [RLframework](https://github.com/lucyzhao1999/Deep-Reinforcement-Learning-with-Tensorflow/tree/master/RLframework)
-    * Algorithm
-    * Tests
-* [src](https://github.com/lucyzhao1999/Deep-Reinforcement-Learning-with-Tensorflow/tree/master/ddpg)
-    * **src**: core algorithm of DDPG
-    * **exec**: to execute training tasks
-    * **tests**
-    * **trainedDDPGModels**
-    * **plots**
-    * **Demos**: Demos for task Pendulum-v0 and MountainCarContinuous-v0
-* [Environment](https://github.com/lucyzhao1999/Deep-Reinforcement-Learning-with-Tensorflow/tree/master/environment)
-    * **chasingEnvironment**: simple constrained wolf-sheep chasing scenario
-    * **gymEnv**: environment adapted from [Gym by OpenAI](https://gym.openai.com)
-        * Files with names starting with "gym": OpenAI implementation of the task environment
-        * Other files: refactored environment
-    * **noise**
-* [FunctionTools](https://github.com/lucyzhao1999/Deep-Reinforcement-Learning-with-Tensorflow/tree/master/functionTools)
-    * **loadSaveModel**
-    * **trajectory**
-* [Visualization](https://github.com/lucyzhao1999/Deep-Reinforcement-Learning-with-Tensorflow/tree/master/visualize)
-
-### To generate the results
-1. run [runMADDPGchasing.py]
+1. Generate models
+    * Specify conditions at [runMADDPGchasing.py](https://github.com/mingluzhao/Bootstrapping-Imagined-We/blob/master/exec/evaluateHierarchyPlanningEnvMADDPG/runMADDPGchasing.py)
+    * Run the file and get trained models at [preTrainModel](https://github.com/mingluzhao/Bootstrapping-Imagined-We/tree/master/data/preTrainModel) 
+2. Generate trajectories
+    * Run [sampleTrajectoryNoSharedAgency.py](https://github.com/mingluzhao/Bootstrapping-Imagined-We/blob/master/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py) and [sampleTrajectorySharedAgency.py](https://github.com/mingluzhao/Bootstrapping-Imagined-We/blob/master/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py)
+    * Trajectories are saved to [trajectories](https://github.com/mingluzhao/Bootstrapping-Imagined-We/tree/master/data/evaluateHierarchyPlanningEnvMADDPG/trajectories)
+    
+3. Generate evaluation graph
+    * Run [evaluateWolvesType.py](https://github.com/mingluzhao/Bootstrapping-Imagined-We/blob/master/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateWolvesType.py) 
+    * Evaluation graph is saved to [evalResult](https://github.com/mingluzhao/Bootstrapping-Imagined-We/tree/master/exec/evalResult)
+    
+4. (optional) Generate demos if needed
+    * Specify conditions at [generateDemo.py](https://github.com/mingluzhao/Bootstrapping-Imagined-We/blob/master/exec/evaluateHierarchyPlanningEnvMADDPG/generateDemo.py) and run the code

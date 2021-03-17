@@ -31,14 +31,14 @@ minibatchSize = 1024#
 
 def main():
     debug = 1
-    if debug:
+    if debug: # specify conditions here
         numWolves = 3
         numSheeps = 1
         numBlocks = 2
         saveAllmodels = 0
         maxTimeStep = 75
-        sheepSpeedMultiplier = 1
-        individualRewardWolf = 0
+        sheepSpeedMultiplier = 1.0
+        individualRewardWolf = 0.0 # individual = 1.0, share = 0.0
         costActionRatio = 0.0
 
     else:

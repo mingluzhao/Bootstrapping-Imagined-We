@@ -1,6 +1,5 @@
-import numpy as np
-import pandas as pd
-import copy
+import copy # TODO: why needed what is the use
+
 
 class RecordValuesForObjects:
     def __init__(self, attributes, objects):
@@ -21,7 +20,6 @@ class ResetObjects:
     def __call__(self):
         [[setattr(objectCase, attribute, value) for attribute, value in zip(list(attributeValue.keys()), copy.deepcopy(list(attributeValue.values())))]
          for objectCase, attributeValue in zip(self.objects, self.attributeValues)]
-
 
 
 class GetObjectsValuesOfAttributes:

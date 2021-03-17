@@ -1,16 +1,18 @@
 import numpy as np
 
+
 class CalActualTokenAction:
-    def __init__(self, imaginedWeId, actionSpace, transite):
+    def __init__(self, imaginedWeId, actionSpace, transit):
         self.imaginedWeId = imaginedWeId
         self.actionSpace = actionSpace
-        self.transite = transite
+        self.transit = transit
 
     def __call__(self, state, nextState):
-        actionBoolViaTransit = [np.allclose(transit(state[imaginedWeId], action), nextState[imaginedWeId]) 
-            for action in actionSpace]
-        acturalTokenAction = np.array(actionSpace)[np.where(actionBoolViaTransit) == True]
+        actionBoolViaTransit = [np.allclose(self.transit(state[self.imaginedWeId], action), nextState[self.imaginedWeId])
+            for action in self.actionSpace]
+        acturalTokenAction = np.array(self.actionSpace)[np.where(actionBoolViaTransit) == True]
         return acturalTokenAction
+
 
 class SampleNoisyAction:
     def __init__(self, noise):
@@ -20,6 +22,7 @@ class SampleNoisyAction:
         #print(acturalSingleAgentAction)
         perceivedAction = np.random.multivariate_normal(acturalSingleAgentAction, np.diag([self.noise**2] * len(acturalSingleAgentAction)))
         return perceivedAction
+
 
 class MappingActionToAnotherSpace:
     def __init__(self, anotherSpace):
@@ -31,6 +34,7 @@ class MappingActionToAnotherSpace:
         perceivedActionIndex = np.random.choice(possiblePerceivedActionIndex)
         perceivedAction = self.anotherSpace[perceivedActionIndex]
         return perceivedAction
+
 
 class PerceptImaginedWeAction:
     def __init__(self, imaginedWeId, perceptSelfAction, perceptOtherAction):

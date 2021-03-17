@@ -1,14 +1,15 @@
 import numpy as np
 import pandas as pd
 
+
 class CalUncommittedAgentsPolicyLikelihood:
     def __init__(self, allAgentsIdsWholeGroup, concernedAgentsIds, policyForUncommittedAgent):
         self.allAgentsIdsWholeGroup = allAgentsIdsWholeGroup
         self.concernedAgentsIds = concernedAgentsIds
         self.policyForUncommittedAgent = policyForUncommittedAgent
 
-    def __call__(self, intention, state, percivedAction):
-        goalId, weIds = intention
+    def __call__(self, intention, state, perceivedAction):
+        goalId, weIds = intention # weID is all agents ID
         uncommittedAgentIds = [Id for Id in self.allAgentsIdsWholeGroup 
                 if (Id not in list(weIds)) and (Id in self.concernedAgentsIds)]
         if len(uncommittedAgentIds) == 0:
@@ -16,16 +17,17 @@ class CalUncommittedAgentsPolicyLikelihood:
         else:
             uncommittedActionDistributions = [self.policyForUncommittedAgent(state, goalId, uncommittedAgentIds[index]) 
                     for index in range(len(uncommittedAgentIds))]
-            uncommittedAgentsPolicyLikelihood = np.product([actionDistribution[tuple(percivedAction[Id])]
+            uncommittedAgentsPolicyLikelihood = np.product([actionDistribution[tuple(perceivedAction[Id])]
                     for actionDistribution, Id in zip(uncommittedActionDistributions, uncommittedAgentIds)])
         return uncommittedAgentsPolicyLikelihood
+
 
 class CalCommittedAgentsPolicyLikelihood:
     def __init__(self, concernedAgentsIds, policyForCommittedAgent):
         self.concernedAgentsIds = concernedAgentsIds
         self.policyForCommittedAgent = policyForCommittedAgent
 
-    def __call__(self, intention, state, percivedAction):
+    def __call__(self, intention, state, perceivedAction):
         goalId, weIds = intention
         committedAgentIds = [Id for Id in list(weIds) if Id in self.concernedAgentsIds]
         if len(committedAgentIds) == 0:
@@ -37,12 +39,13 @@ class CalCommittedAgentsPolicyLikelihood:
             marginalDf = jointDf.groupby([str(Id) for Id in committedAgentIds]).sum()
             marginalLikelihood = marginalDf['likelihood'].to_dict()
             if len(committedAgentIds) == 1:
-                jointAction = tuple(percivedAction[committedAgentIds[0]])
+                jointAction = tuple(perceivedAction[committedAgentIds[0]])
             else:
                 jointAction = tuple([tuple(individualAction) 
-                    for individualAction in np.array(percivedAction)[list(committedAgentIds)]])
+                    for individualAction in np.array(perceivedAction)[list(committedAgentIds)]])
             committedAgentsPolicyLikelihood = marginalLikelihood[jointAction]
         return committedAgentsPolicyLikelihood
+
 
 class CalCommittedAgentsContinuousPolicyLikelihood:
     def __init__(self, concernedAgentsIds, policyForCommittedAgent, rationalityBeta):
@@ -50,35 +53,37 @@ class CalCommittedAgentsContinuousPolicyLikelihood:
         self.policyForCommittedAgent = policyForCommittedAgent
         self.rationalityBeta = rationalityBeta
 
-    def __call__(self, intention, state, percivedAction):
+    def __call__(self, intention, state, perceivedAction):
         goalId, weIds = intention
         committedAgentIds = [Id for Id in list(weIds) if Id in self.concernedAgentsIds]
         if len(committedAgentIds) == 0:
             committedAgentsPolicyLikelihood = 1
         else:
             jointActionDistribution = self.policyForCommittedAgent(state, goalId, weIds)
-            jointAction = np.array(percivedAction)[list(committedAgentIds)]
+            jointAction = np.array(perceivedAction)[list(committedAgentIds)]
             pdfs = [individualDistribution.pdf(action) for individualDistribution, action in zip(jointActionDistribution, jointAction)]
             committedAgentsPolicyLikelihood = np.power(np.product(pdfs), self.rationalityBeta)
         return committedAgentsPolicyLikelihood
 
+
 class InferOneStep:
-    def __init__(self, jointHypothesisSpace, concernedHypothesisVariable, calJointLikelihood, softPrior):
+    def __init__(self, jointHypothesisSpace, concernedHypothesisVariable, calJointLikelihood, softenPrior):
         self.jointHypothesisSpace = jointHypothesisSpace
         self.concernedHypothesisVariable = concernedHypothesisVariable
         self.calJointLikelihood = calJointLikelihood
-        self.softPrior = softPrior
+        self.softenPrior = softenPrior
 
     def __call__(self, intentionPrior, state, perceivedAction):
         jointHypothesisDf = pd.DataFrame(index = self.jointHypothesisSpace)
         intentions = jointHypothesisDf.index.get_level_values('intention')
-        jointHypothesisDf['likelihood'] = [self.calJointLikelihood(intention, state, perceivedAction) for intention in intentions]
+        likelihood = [self.calJointLikelihood(intention, state, perceivedAction) for intention in intentions]
+        jointHypothesisDf['likelihood'] = likelihood
         #jointHypothesisDf['jointLikelihood'] = jointHypothesisDf.apply(lambda row: self.calJointLikelihood(row.name[0], state, row.name[1], nextState))
         marginalLikelihood = jointHypothesisDf.groupby(self.concernedHypothesisVariable).sum()
         oneStepLikelihood = marginalLikelihood['likelihood'].to_dict()
         
-        softenPrior = self.softPrior(intentionPrior)
-        unnomalizedPosterior = {key: np.exp(np.log(softenPrior[key] + 1e-4) + np.log(oneStepLikelihood[key])) for key in list(intentionPrior.keys())}
+        softPrior = self.softenPrior(intentionPrior) # no change
+        unnomalizedPosterior = {key: np.exp(np.log(softPrior[key] + 1e-4) + np.log(oneStepLikelihood[key])) for key in list(intentionPrior.keys())}
         normalizedProbabilities = np.array(list(unnomalizedPosterior.values())) / np.sum(list(unnomalizedPosterior.values()))
         normalizedPosterior = dict(zip(list(unnomalizedPosterior.keys()),normalizedProbabilities))
         #print(normalizedPosterior)

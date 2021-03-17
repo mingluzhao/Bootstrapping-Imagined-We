@@ -1,6 +1,4 @@
 import numpy as np
-import random
-import copy
 from scipy import stats
 
 def stationaryAgentPolicy(state):
@@ -33,6 +31,7 @@ class HeatSeekingDiscreteDeterministicPolicy:
         actionDist = {action: 1 / len(actionsShareProbability) if action in actionsShareProbability else 0 for action in self.actionSpace}
         return actionDist
 
+
 class HeatSeekingContinuesDeterministicPolicy:
     def __init__(self, getPredatorPos, getPreyPos, actionMagnitude):
         self.getPredatorPos = getPredatorPos
@@ -49,6 +48,7 @@ class HeatSeekingContinuesDeterministicPolicy:
         actionTuple = tuple(action)
         actionDist = {actionTuple: 1}
         return actionDist
+
 
 class HeatSeekingDiscreteStochasticPolicy:
     def __init__(self, assumePrecision, actionSpace, getPredatorPos, getPreyPos):

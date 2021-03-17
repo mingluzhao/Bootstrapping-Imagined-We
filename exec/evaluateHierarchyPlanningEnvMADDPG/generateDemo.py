@@ -4,30 +4,22 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 dirName = os.path.dirname(__file__)
 sys.path.append(os.path.join(dirName, '..', '..'))
 
-import random
 import numpy as np
-import pickle
-from collections import OrderedDict
-import pandas as pd
-from matplotlib import pyplot as plt
-import itertools as it
-import pathos.multiprocessing as mp
 import pygame as pg
 from pygame.color import THECOLORS
 
-from src.visualization.drawDemo import DrawBackground, DrawCircleOutside, DrawCircleOutsideEnvMADDPG, DrawState, DrawStateEnvMADDPG, ChaseTrialWithTraj, InterpolateState
-from src.sampleTrajectoryTools.trajectoriesSaveLoad import GetSavePath, readParametersFromDf, LoadTrajectories, SaveAllTrajectories, \
-        GenerateAllSampleIndexSavePaths, saveToPickle, loadFromPickle
+from src.visualization.drawDemo import DrawBackground, DrawCircleOutsideEnvMADDPG, DrawStateEnvMADDPG, ChaseTrialWithTraj
+from src.sampleTrajectoryTools.trajectoriesSaveLoad import GetSavePath, LoadTrajectories, loadFromPickle
+
 
 def main():
     DIRNAME = os.path.dirname(__file__)
-    trajectoryDirectory = os.path.join(DIRNAME, '..', '..', 'data', 'evaluateHierarchyPlanningEnvMADDPG',
-                                    'trajectories')
+    trajectoryDirectory = os.path.join(DIRNAME, '..', '..', 'data', 'evaluateHierarchyPlanningEnvMADDPG', 'trajectories')
     if not os.path.exists(trajectoryDirectory):
         os.makedirs(trajectoryDirectory)
     
     maxRunningSteps = 101
-    trajectoryFixedParameters = {'maxRunningSteps': maxRunningSteps}
+    trajectoryFixedParameters = {'maxRunningStepsToSample': maxRunningSteps}
     trajectoryExtension = '.pickle'
     getTrajectorySavePath = GetSavePath(trajectoryDirectory, trajectoryExtension, trajectoryFixedParameters)
 
@@ -63,7 +55,7 @@ def main():
     circleSizeSpace = [wolfSize] * numWolves + [sheepSize] * numSheep + [blockSize] * numBlocks
     positionIndex = [0, 1]
     agentIdsToDraw = list(range(numWolves + numSheep + numBlocks))
-    #saveImage = True
+
     saveImage = False
     imageSavePath = os.path.join(trajectoryDirectory, 'picMovingSheep')
     if not os.path.exists(imageSavePath):
@@ -84,22 +76,18 @@ def main():
     
    # MDP Env
     interpolateState = None
-    
     stateIndexInTimeStep = 0
     actionIndexInTimeStep = 1
     posteriorIndexInTimeStep = None
     chaseTrial = ChaseTrialWithTraj(stateIndexInTimeStep, drawState, interpolateState, actionIndexInTimeStep, posteriorIndexInTimeStep)
     
-    #print(len(trajectories))
-    lens = [len(trajectory) for trajectory in trajectories]
-    maxWolfPositions = np.array([max([max([max(abs(timeStep[0][wolfId][0]), abs(timeStep[0][wolfId][1])) 
+    maxWolfPositions = np.array([max([max([max(abs(timeStep[0][wolfId][0]), abs(timeStep[0][wolfId][1]))
         for wolfId in range(numWolves)]) 
         for timeStep in trajectory])
         for trajectory in trajectories])
     flags = maxWolfPositions < 1.3 * viewRatio
     index = flags.nonzero()[0]
     print(trajectories[0][1])
-    #[chaseTrial(trajectory) for trajectory in np.array(trajectories)[index[0:3]]]
     [chaseTrial(trajectory) for trajectory in np.array(trajectories)[index[[0, 2, 3]]]]
 
 if __name__ == '__main__':

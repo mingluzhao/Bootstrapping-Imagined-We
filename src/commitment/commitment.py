@@ -1,6 +1,5 @@
 import numpy as np
-import random
-import copy 
+
 
 class RegulateCommitmentBroken:
     def __init__(self, partnerCommitPrior, updatePartnerCommitDistribution, chooseCommitmentWarning, commitmentInferInterval = 1):

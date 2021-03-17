@@ -32,6 +32,7 @@ class CalIntentionValueGivenState:
         value = valueFunction(relativeAgentsStatesForValue)
         return value 
 
+
 class AdjustIntentionPriorGivenValueOfState:
     def __init__(self, calIntentionValue, softFunction):
         self.calIntentionValue = calIntentionValue
@@ -49,6 +50,7 @@ class AdjustIntentionPriorGivenValueOfState:
                 for intention, probability in zip(intentions, normalizedProbabilities)}
         return adjustedIntentionPrior
 
+
 class UpdateIntention:
     def __init__(self, intentionPrior, endAdjustedPriorTimeStep, adjustIntentionPrior, perceptAction, inferIntentionOneStep, chooseIntention):
         self.timeStep = 0
@@ -63,16 +65,17 @@ class UpdateIntention:
         self.chooseIntention = chooseIntention
 
     def __call__(self, state):
-        if self.timeStep <= self.endAdjustedTimeStep:
-            adjustedIntentionPrior = self.adjustIntentionPrior(self.intentionPrior, state)
+        if self.timeStep <= self.endAdjustedTimeStep: #TODO: endAdjustedTimeStep always = -100 for all sampleTraj files?
+            adjustedIntentionPrior = self.adjustIntentionPrior(self.intentionPrior, state) # return 1
         else:
-            adjustedIntentionPrior = self.intentionPrior.copy()
+            adjustedIntentionPrior = self.intentionPrior.copy() # this one used
 
         if self.timeStep == 0:
             intentionPosterior = adjustedIntentionPrior.copy()
         else:
             perceivedAction = self.perceptAction(self.lastAction)
             intentionPosterior = self.inferIntentionOneStep(adjustedIntentionPrior, self.lastState, perceivedAction)
+
         intention = self.chooseIntention(intentionPosterior)
 
         self.lastState = state.copy()

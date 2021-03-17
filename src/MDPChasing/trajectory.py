@@ -1,13 +1,7 @@
-import numpy as np
-import random
-import pygame as pg
-import os
-
 class ForwardOneStep:
     def __init__(self, transitionFunction, rewardFunction):
         self.transitionFunction = transitionFunction
         self.rewardFunction = rewardFunction
-
 
     def __call__(self, state, sampleAction):
         action = sampleAction(state)

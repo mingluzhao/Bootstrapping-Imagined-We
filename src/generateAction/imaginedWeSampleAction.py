@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class PolicyForUncommittedAgent:
     def __init__(self, allAgentsIdsWholeGroup, uncommittedPolicy, softDistribution, getAgentsStatesForPolicy):
         self.allAgentsIdsWholeGroup = allAgentsIdsWholeGroup
@@ -13,6 +14,7 @@ class PolicyForUncommittedAgent:
         softenActionDistribution = self.softDistribution(actionDistribution)
         return softenActionDistribution
 
+
 class PolicyForCommittedAgent:
     def __init__(self, policyListBasedOnNumAgentsInWe, softDistribution, getAgentsStatesForPolicy):
         self.policyListBasedOnNumAgentsInWe = policyListBasedOnNumAgentsInWe
@@ -21,7 +23,9 @@ class PolicyForCommittedAgent:
 
     def __call__(self, state, goalId, weIds):
         numAgentsInWe = len(weIds) 
-        policyFunctionIndexInList = (numAgentsInWe - 2)
+        # policyFunctionIndexInList = (numAgentsInWe - 2) # TODO
+        policyFunctionIndexInList = 0
+
         policyFunction = self.policyListBasedOnNumAgentsInWe[policyFunctionIndexInList]
 
         relativeAgentsStatesForPolicy = self.getAgentsStatesForPolicy(state, goalId, weIds)
@@ -29,6 +33,7 @@ class PolicyForCommittedAgent:
         softenActionDistribution = self.softDistribution(actionDistribution)
         #print(actionDistribution[0].mean, actionDistribution[1].mean)
         return softenActionDistribution
+
 
 class GetActionFromJointActionDistribution:
     def __init__(self, chooseActionMethod, getActionIndex):
@@ -39,6 +44,7 @@ class GetActionFromJointActionDistribution:
         jointAction = self.chooseActionMethod(jointActionDistribution)
         action = tuple(np.array(jointAction)[self.getActionIndex(weIds, selfId)])
         return action
+
 
 class HierarchyPolicyForCommittedAgent:
     def __init__(self, numAllGoals, selfId, fineActionSpace, getRoughJointActionDistribution, getJointAction, 
@@ -72,6 +78,7 @@ class HierarchyPolicyForCommittedAgent:
         #print(composedStateForLevel2Policy, self.selfId)
         return softenDistribution
 
+
 class SampleIndividualActionGivenIntention:
     def __init__(self, selfId, getActionDistributionForCommittedAgent, getActionDistributionForUncommittedAgent, 
             chooseCommittedAction, chooseUncommittedAction):
@@ -92,6 +99,7 @@ class SampleIndividualActionGivenIntention:
         #print(actionDistribution, individualAction, goalId, weIds, self.selfId)
         return individualAction
 
+
 class SampleActionOnChangableIntention:
     def __init__(self, updateIntention, sampleIndividualActionGivenIntention):
         self.updateIntention= updateIntention
@@ -100,6 +108,7 @@ class SampleActionOnChangableIntention:
         intention = self.updateIntention(state)
         individualAction = self.sampleIndividualActionGivenIntention(state, intention)
         return individualAction 
+
 
 class SampleActionOnFixedIntention:
     def __init__(self, selfId, fixedIntention, policy, chooseActionMethod, blocksId = []):
@@ -111,10 +120,11 @@ class SampleActionOnFixedIntention:
         self.chooseActionMethod = chooseActionMethod
     
     def __call__(self, state):
-        relativeAgentsStates = state[np.sort([self.selfId] + self.goalIdsFromFixedIntention + self.blocksId)]
+        relativeAgentsStates = np.array(state)[np.sort([self.selfId] + self.goalIdsFromFixedIntention + self.blocksId)]
         actionDistribution = self.policy(relativeAgentsStates)
         individualAction = self.chooseActionMethod(actionDistribution)
         return individualAction
+
 
 class SampleActionMultiagent:
     def __init__(self, individualSampleActions, recordActionForUpdateIntention): 

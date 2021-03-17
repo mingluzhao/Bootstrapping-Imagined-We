@@ -2,185 +2,217 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a211ef5-4a43-4213-ac31-5e1914d06e33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/augment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=0_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=0_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=0_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=0_iterationIndex=486_killzoneRadius=30_maxRunningSteps=100_numSimulations=200_numTrainStepEachIteration=3_numTrajectoriesPerIteration=16.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=0_iterationIndex=486_killzoneRadius=30_maxRunningSteps=100_numSimulations=200_numTrainStepEachIteration=3_numTrajectoriesPerIteration=16.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=0_iterationIndex=486_killzoneRadius=30_maxRunningSteps=100_numSimulations=200_numTrainStepEachIteration=3_numTrajectoriesPerIteration=16.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=1_dataSize=3000_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=1_dataSize=3000_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=1_dataSize=3000_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=1_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=1_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=1_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=1_iterationIndex=486_killzoneRadius=30_maxRunningSteps=100_numSimulations=200_numTrainStepEachIteration=3_numTrajectoriesPerIteration=16.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=1_iterationIndex=486_killzoneRadius=30_maxRunningSteps=100_numSimulations=200_numTrainStepEachIteration=3_numTrajectoriesPerIteration=16.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=1_iterationIndex=486_killzoneRadius=30_maxRunningSteps=100_numSimulations=200_numTrainStepEachIteration=3_numTrajectoriesPerIteration=16.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=22_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=22_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=22_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=33_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=33_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=33_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=55_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=55_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=55_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=92_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=92_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=92_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=92_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000/agentId=92_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=92_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000/agentId=92_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=92_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000/agentId=92_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=93_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=93_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=93_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=93_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000/agentId=93_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=93_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000/agentId=93_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=93_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000/agentId=93_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=95_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=95_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=95_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=99_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=99_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/preTrainModel/agentId=99_depth=9_learningRate=0.0001_maxRunningSteps=100_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsMulti/agentId=0_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=200_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsMulti/agentId=0_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=200_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsMulti/agentId=0_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=200_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsSingle/agentId=0_dataSize=5000_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=100_sampleOneStepPerTraj=0_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsSingle/agentId=0_dataSize=5000_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=100_sampleOneStepPerTraj=0_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsSingle/agentId=0_dataSize=5000_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=100_sampleOneStepPerTraj=0_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsSingle/nostillaction/agentId=0_dataSize=5000_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=200_sampleOneStepPerTraj=1_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsSingle/nostillaction/agentId=0_dataSize=5000_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=200_sampleOneStepPerTraj=1_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsSingle/nostillaction/agentId=0_dataSize=5000_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=200_sampleOneStepPerTraj=1_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsSingle/policyValueNetStillAction/agentId=0_dataSize=5000_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=100_sampleOneStepPerTraj=0_trainSteps=50000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsSingle/policyValueNetStillAction/agentId=0_dataSize=5000_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=100_sampleOneStepPerTraj=0_trainSteps=50000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trainedModelsSingle/policyValueNetStillAction/agentId=0_dataSize=5000_depth=5_learningRate=0.0001_maxRunningSteps=150_miniBatchSize=256_numSimulations=100_sampleOneStepPerTraj=0_trainSteps=50000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/Reward2Wolves.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/Reward3Wolves.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/convergeRate2Wolves.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/convergeRate3Wolves.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/doubleSpeed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/evaluateReward.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/evaluateRewardGuidedMCTS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/evluateInferenceCrossEntropyMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/normalSpeed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/planningDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/sampleTrajectoryWithHierarchyLevel1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/sampleTrajectoryWithHierarchyLevel2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/sampleTrajectoryWithNoHierarchy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithNoisePerception/evluateInferenceCrossEntropyMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithNoisePerception/evluateIntentionInPlanningMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithNoisePerception/planningDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithObstacle/evaluateReward.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithObstacle/evaluateRewardGuidedMCTS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithObstacle/planningDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithSmallActionSpaceForOthers/evluateInferenceCrossEntropyMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithSmallActionSpaceForOthers/evluateIntentionInPlanningMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/2and3wolves.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/2and3wolvesCrossEntropy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/2wolves.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/3wolves.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/evaluateReward.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/evluateInferenceCrossEntropyMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/evluateIntentionInPlanningMovingSheep2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/hierarchy3wolvesCrossEntropy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/hierarchyorNo3wolves.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/planningDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evluateIntentionInPlanningMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuideMCTSWeBothWolfSheepObstacle/OneLevelPolicy/drawMCTSDemoNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuideMCTSWeBothWolfSheepObstacle/OneLevelPolicy/drawMCTSDemoObstacle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuideMCTSWeBothWolfSheepObstacle/OneLevelPolicy/evaGuidedMCTSWe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuideMCTSWeBothWolfSheepObstacle/OneLevelPolicy/ffmpegScript.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuideMCTSWeBothWolfSheepObstacle/OneLevelPolicy/prepareGuidedMCTSWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuideMCTSWeBothWolfSheepObstacle/OneLevelPolicy/prepareGuidedMCTSWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuideMCTSWeBothWolfSheepObstacle/OneLevelPolicy/sampleGuidedMCTSWeWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuideMCTSWeBothWolfSheepObstacle/OneLevelPolicy/sampleGuidedMCTSWeWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/HierarchyPolicy/generateMCTSDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/HierarchyPolicy/prepareGuidedMCTSWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/HierarchyPolicy/prepareGuidedMCTSWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/HierarchyPolicy/sampleGuidedMCTSWeWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/HierarchyPolicy/sampleGuidedMCTSWeWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/OneLevelPolicy/compareWolfWithDiffActionSpace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/OneLevelPolicy/evaGuidedMCTSWeWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/OneLevelPolicy/generateMCTSDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/OneLevelPolicy/prepareGuidedMCTSWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/OneLevelPolicy/prepareGuidedMCTSWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/OneLevelPolicy/sampleGuidedMCTSWeWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWe/OneLevelPolicy/sampleGuidedMCTSWeWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/HierarchyPolicy/drawMCTSDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/HierarchyPolicy/ffmpegScript.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/HierarchyPolicy/prepareGuidedMCTSWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/HierarchyPolicy/prepareGuidedMCTSWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/HierarchyPolicy/sampleGuidedMCTSWeWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/HierarchyPolicy/sampleGuidedMCTSWeWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/OneLevelPolicy/compareWolfWithDiffActionSpace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/OneLevelPolicy/drawMCTSDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/OneLevelPolicy/evaGuidedMCTSWeWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/OneLevelPolicy/prepareGuidedMCTSWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/OneLevelPolicy/prepareGuidedMCTSWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/OneLevelPolicy/sampleGuidedMCTSWeWithNNValue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateGuidedMCTSWeBothWolfAndSheep/OneLevelPolicy/sampleGuidedMCTSWeWithRollout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateRegulaterTraj/regulateOff/prepareRegulaterTraj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateRegulaterTraj/regulateOff/sampleRegulaterTraj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateRegulaterTraj/regulateOn/evaluateReward.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateRegulaterTraj/regulateOn/planningDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateRegulaterTraj/regulateOn/prepareRegulaterTraj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/generateRegulaterTraj/regulateOn/sampleRegulaterTraj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/runExperiment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/script.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/evaluateMCTSCenterControlRandomSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/evaluateNNTrainingParameters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/evluateIntentionInPlanningMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/generateCenterControlEvaTraj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/generateCenterControlTrajectoryByCondition.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/prepareMCTSDataAsync.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/prepareMCTSIndividualAction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/sampleMCTSIndividualAction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/trainLevel2IndividualActionResNet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train3Wolves/evaluateMCTSCenterControlRandomSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train3Wolves/evaluateNNTrainingParameters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train3Wolves/evluateIntentionInPlanningMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train3Wolves/generateCenterControlEvaTraj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train3Wolves/generateCenterControlTrajectoryByCondition.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train3Wolves/prepareMCTSDataAsync.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train3Wolves/prepareMCTSIndividualAction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train3Wolves/sampleMCTSIndividualAction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train3Wolves/trainLevel2IndividualActionResNet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/trainLevle2FineActionTunning/evaluateMCTSCenterControlRandomSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/trainLevle2FineActionTunning/evaluateNNTrainingParameters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/trainLevle2FineActionTunning/evluateIntentionInPlanningMovingSheep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/trainLevle2FineActionTunning/generateCenterControlEvaTraj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/trainLevle2FineActionTunning/generateCenterControlTrajectoryByCondition.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/trainLevle2FineActionTunning/prepareMCTSDataAsync.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/trainLevle2FineActionTunning/prepareMCTSLevel2Action.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/trainLevle2FineActionTunning/sampleMCTSLevel2Action.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/trainLevle2FineActionTunning/trainLevel2IndividualActionResNet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MDPChasing/policies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/centralControl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chooseFromDistribution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commitment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/controller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/dataAnalysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/experiment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/experiment_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/pictures/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/pictures/finish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/pictures/introduction.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/pictures/introduction.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/pictures/rest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/trial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/experiment/writer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parallelComputing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preProcessing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/replayBuffer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple1DEnv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trainLevel2FineDirection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trajectoriesSaveLoad.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trajectory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/valueFromNode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/diagnoseAnalysis/InSmallRangeRate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/diagnoseAnalysis/hierarchyActionDiffFromJoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateCompeteDetection/evaluateReward.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateCompeteDetection/evluateInferenceCrossEntropyMovingSheep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateCompeteDetection/heatseekingCompete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateCompeteDetection/planningDemo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateCompeteDetection/sampleTrajectoryHeatSeeking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateCompeteDetection/sampleTrajectoryNNCompete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/1.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/3Wolves25killzone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/drawHeatmapOfValue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/evaluateRewardGuidedMCTS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/evaluateRewardHierarchy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/evaluateRewardNumWolves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/evaluateRewardValuePrior.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/evluateInferenceCrossEntropyMovingSheep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/newMethod2WolvesConverge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/newMethod3WolvesConverge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/newMethodNoPriorReward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/newMethodNoPriorReward25KillZone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/numWolves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/planningDemo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/priorValue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/priorValueDiffSoftMax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/sampleTrajectoryNoSharedAgency.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/sampleTrajectoryWithHierarchyLevel1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/sampleTrajectoryWithHierarchyLevel2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/sampleTrajectoryWithNoHierarchy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/valueMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanning/valueMap2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/2WolvesIntentionConvegency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/2WolvesIntentionConvegencyDiffBeta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegencyDiffBeta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegencyDiffBeta2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegencySharedAgency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG3WolfSharedAgencyVSIndividualRewardVSSharedReward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG3WolfSharedAgencyVSReward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGBiggerNoiseForInfer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGDiffBeta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfType.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfType1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfTypeTemp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfTypeTemp1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/convergeRate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardDiffTypeWolf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardSharedAngecyWolfPara.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp1_maybeFinal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp2.py" beforeDir="false" afterPath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evluateInferenceCrossEntropyMovingSheep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/numBitingMADDPGWolfType.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/numBitingMADDPGWolfType1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/planningDemo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/planningDemoNoSharedAgency.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateObstacle/evaluateRewardNumWolves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateObstacle/reward2Wolves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/evaluateObstacle/sampleTrajectory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MDPChasing/envMADDPG.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MDPChasing/envNoPhysics.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MDPChasing/envNoPhysics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MDPChasing/policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MDPChasing/policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MDPChasing/reward.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MDPChasing/reward.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MDPChasing/simple1DEnv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MDPChasing/simple1DEnv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MDPChasing/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MDPChasing/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MDPChasing/trajectory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MDPChasing/trajectory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/mcts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commitment/commitment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/commitment/commitment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inference/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/inference/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inference/intention.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/inference/intention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inference/percept.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/inference/percept.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inference/regulatorInference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathTools/distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathTools/distribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathTools/soft.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathTools/soft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neuralNetwork/policyNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neuralNetwork/policyValueNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neuralNetwork/preProcessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neuralNetwork/trainTools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neuralNetwork/visualizeNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sampleTrajectoryTools/resetObjectsForMultipleTrjaectory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sampleTrajectoryTools/resetObjectsForMultipleTrjaectory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sampleTrajectoryTools/trajectoriesSaveLoad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sampleTrajectoryTools/trajectoriesSaveLoad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/MUJOCO_LOG.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test1DEnv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testAnalyticGeometryFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testCentralControl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testChooseFromDistribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=0_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=10_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=11_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=12_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=13_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=14_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=15_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=16_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=17_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=18_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=19_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=1_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=20_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=21_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=22_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=23_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=24_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=25_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=26_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=27_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=28_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=29_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=2_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=30_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=31_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=32_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=33_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=34_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=35_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=36_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=37_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=38_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=39_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=3_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=40_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=41_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=42_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=43_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=44_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=45_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=46_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=47_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=48_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=49_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=4_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=50_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=51_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=52_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=53_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=54_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=55_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=56_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=57_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=58_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=59_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=5_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=60_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=61_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=62_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=63_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=64_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=65_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=66_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=67_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=68_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=69_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=6_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=70_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=71_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=72_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=73_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=74_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=75_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=76_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=77_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=78_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=79_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=7_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=80_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=81_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=82_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=83_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=84_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=85_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=86_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=87_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=88_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=89_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=8_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=90_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=91_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=92_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=93_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=94_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=95_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=96_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=97_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=98_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=99_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=15_numSimulations=200_numTrials=100_qPosInit=(-4,0,4,0)_sampleIndex=9_sheepPolicyName=MCTS.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=2_numSimulations=800_numTrials=100_qPosInit=(0,0,0,0)_sampleIndex=(0, 49)_sheepPolicyName=NN.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=2_numSimulations=800_numTrials=100_qPosInit=(0,0,0,0)_sampleIndex=(50, 99)_sheepPolicyName=NN.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testData/maxRunningSteps=2_numSimulations=800_numTrials=50_qPosInit=(0,0,0,0)_sampleIndex=(100, 149)_sheepPolicyName=NN.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testEnvMujoco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testInference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testMCTS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testNNTrainTools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testNoPhysicsEnv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testPercept.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testPolicies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testPolicyValueNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testRegulaterInference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testReplayBuffer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testRewardFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testState.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testTrajectoriesSaveLoad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testVisualizeNN.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,24 +222,130 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/mcts.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="313">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/runMADDPGchasing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/generateDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4240">
+              <caret line="302" selection-start-line="302" selection-end-line="302" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="700">
+                <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MDPChasing/trajectory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>trainOneCondition</find>
+      <find>CalUncommittedAgentsPolicyLikelihood</find>
+      <find>layerWidth</find>
+      <find>deviationFor2DAction</find>
+      <find>intentionSpacesForAllWolves</find>
+      <find>valuePriorEndTime</find>
+      <find>sheepPrefix</find>
+      <find>reward</find>
+      <find>rewardWolf</find>
+      <find>sampleTrajectory</find>
+      <find>wolfType</find>
+      <find>calJointLikelihood</find>
+      <find>percivedAction</find>
+      <find>maxRunningSteps</find>
+      <find>ComposeCentralControlPolicyByGaussianOnDeterministicAction</find>
+      <find>buildGaussian</find>
+      <find>actOneStepOneModelSheep</find>
+      <find>restore</find>
+      <find>numAgentInWe</find>
+      <find>numWolves + 1</find>
+      <find>2</find>
+      <find>possibleWolvesIds</find>
+      <find>GetActionCost</find>
+      <find>print</find>
+      <find>actByPolicyTrainNoisy</find>
+      <find>numAllSheepModels</find>
+      <find>possibleSheepIds</find>
+      <find>weModelsListBaseOnNumInWe</find>
+      <find>wolfSelfish</find>
+      <find>reshapeAction</find>
+      <find>parameters</find>
     </findStrings>
+    <replaceStrings>
+      <replace>sheepType</replace>
+      <replace>perceivedAction</replace>
+      <replace>sheepsID</replace>
+      <replace>maxRunningStepsToSample</replace>
+      <replace>wolvesCentralControlPolicy</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -217,17 +355,43 @@
       <list>
         <option value="$PROJECT_DIR$/exec/runExperiment.py" />
         <option value="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/trainLevel2IndividualActionResNet.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Bootstrapping-Imagined-We.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+        <option value="$PROJECT_DIR$/src/mathTools/distribution.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/1.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/envNoPhysics.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/policy.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/reward.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/simple1DEnv.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/trajectory.py" />
+        <option value="$PROJECT_DIR$/src/mathTools/soft.py" />
+        <option value="$PROJECT_DIR$/src/neuralNetwork/policyValueResNet.py" />
+        <option value="$PROJECT_DIR$/src/algorithms/MADDPG/d.py" />
+        <option value="$PROJECT_DIR$/src/commitment/commitment.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/exec/evaluateCompeteDetection/sampleTrajectoryHeatSeeking.py" />
+        <option value="$PROJECT_DIR$/src/sampleTrajectoryTools/resetObjectsForMultipleTrjaectory.py" />
+        <option value="$PROJECT_DIR$/src/inference/percept.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/state.py" />
+        <option value="$PROJECT_DIR$/src/inference/inference.py" />
+        <option value="$PROJECT_DIR$/src/inference/intention.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp1.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardDiffTypeWolf.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardSharedAngecyWolfPara.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp1_maybeFinal.py" />
+        <option value="$PROJECT_DIR$/src/sampleTrajectoryTools/trajectoriesSaveLoad.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/myfileEval.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/envMADDPG_mine.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/RLrun.py" />
+        <option value="$PROJECT_DIR$/src/MDPChasing/envMADDPG.py" />
+        <option value="$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency_edit.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp2.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy_edit.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/runMADDPGchasing.py" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -241,6 +405,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,31 +416,39 @@
             <path>
               <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
               <item name="exec" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exec" type="462c0819:PsiDirectoryNode" />
+              <item name="evalResult" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="exec" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluateHierarchyPlanningEnvMADDPG" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python&#10;TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -284,6 +457,11 @@
         <option name="myUseModuleSdk" value="true" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -297,8 +475,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.trainLevel2IndividualActionResNet">
-    <configuration name="evluateIntentionInPlanningMovingSheep" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.generateDemo">
+    <configuration name="evaluateRewardTemp2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Bootstrapping-Imagined-We" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,12 +484,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evluateIntentionInPlanningMovingSheep.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,7 +498,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="planningDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generateDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Bootstrapping-Imagined-We" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,12 +506,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/planningDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/generateDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,7 +520,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trainLevel2IndividualActionResNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sampleTrajectoryNoSharedAgency" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Bootstrapping-Imagined-We" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,12 +528,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/trainLevel2IndividualActionResNet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sampleTrajectoryNoSharedAgency_edit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Bootstrapping-Imagined-We" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sampleTrajectorySharedAngecy_edit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Bootstrapping-Imagined-We" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -366,9 +588,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.trainLevel2IndividualActionResNet" />
-        <item itemvalue="Python.evluateIntentionInPlanningMovingSheep" />
-        <item itemvalue="Python.planningDemo" />
+        <item itemvalue="Python.generateDemo" />
+        <item itemvalue="Python.sampleTrajectorySharedAngecy_edit" />
+        <item itemvalue="Python.evaluateRewardTemp2" />
+        <item itemvalue="Python.sampleTrajectoryNoSharedAgency_edit" />
+        <item itemvalue="Python.sampleTrajectoryNoSharedAgency" />
       </list>
     </recent_temporary>
   </component>
@@ -384,24 +608,25 @@
       <updated>1613624761402</updated>
       <workItem from="1613624763831" duration="2189000" />
       <workItem from="1613707283212" duration="598000" />
-      <workItem from="1613712996920" duration="1255000" />
+      <workItem from="1613712996920" duration="29190000" />
+      <workItem from="1614726812500" duration="46285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4042000" />
+    <option name="totallyTimeSpent" value="78262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1024" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23365231" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938564" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.215396" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.18874907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3249445" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3330866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -409,24 +634,24 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32938564" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.21835677" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.33293462" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23365231" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13795853" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938564" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.215396" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.05995559" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15766099" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22427832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -434,8 +659,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32938564" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.21835677" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -448,140 +673,449 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/sampleTrajectoryTools/trajectoriesSaveLoad.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$trainLevel2IndividualActionResNet.coverage" NAME="trainLevel2IndividualActionResNet Coverage Results" MODIFIED="1613740272444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves" />
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evluateIntentionInPlanningMovingSheep.coverage" NAME="evluateIntentionInPlanningMovingSheep Coverage Results" MODIFIED="1613627248509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evaluateRewardTemp2.coverage" NAME="evaluateRewardTemp2 Coverage Results" MODIFIED="1615971198683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$generateDemo.coverage" NAME="generateDemo Coverage Results" MODIFIED="1615973000370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$planningDemo.coverage" NAME="planningDemo Coverage Results" MODIFIED="1613627131854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectorySharedAngecy.coverage" NAME="sampleTrajectorySharedAngecy Coverage Results" MODIFIED="1615435465725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectorySharedAngecy_edit.coverage" NAME="sampleTrajectorySharedAngecy_edit Coverage Results" MODIFIED="1615972122319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evaluateRewardSharedAngecyWolfPara.coverage" NAME="evaluateRewardSharedAngecyWolfPara Coverage Results" MODIFIED="1615686278560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evaluateRewardTemp1.coverage" NAME="evaluateRewardTemp1 Coverage Results" MODIFIED="1615862231894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectoryNoSharedAgency.coverage" NAME="sampleTrajectoryNoSharedAgency Coverage Results" MODIFIED="1615959827699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evaluateRewardTemp.coverage" NAME="evaluateRewardTemp Coverage Results" MODIFIED="1615689408240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectoryNoSharedAgency_edit.coverage" NAME="sampleTrajectoryNoSharedAgency_edit Coverage Results" MODIFIED="1615963844162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>state[np.array([0, 1])]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>state[[0,1]]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>state[0, 1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>actions</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mergedTrajectories</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>filesNames</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>genericSavePath</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.lastAction</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jointHypothesisSpaces[1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jointHypothesisSpaces[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exec/runExperiment.py">
+    <entry file="file://$PROJECT_DIR$/exec/evaluateObstacle/sampleTrajectory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="-370">
+          <caret line="195" column="28" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanning/sampleTrajectoryWithNoHierarchy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-941">
+          <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateCompeteDetection/sampleTrajectoryNNCompete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="264" column="43" selection-start-line="264" selection-start-column="26" selection-end-line="264" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanning/sampleTrajectoryWithHierarchyLevel2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1594">
+          <caret line="195" column="28" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateCompeteDetection/sampleTrajectoryHeatSeeking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="178" column="45" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inference/percept.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="45" column="89" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MDPChasing/state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inference/inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/MADDPG/myMADDPG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="183" column="8" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/resetObjectsForMultipleTrjaectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mathTools/distribution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inference/intention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/2WolvesIntentionConvegencyDiffBeta.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegency.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegencyDiffBeta.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/convergeRate.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGBiggerNoiseForInfer.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfTypeTemp1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfTypeTemp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfType.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGDiffBeta.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/testCentralControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/diagnoseAnalysis/hierarchyActionDiffFromJoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3644">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardDiffTypeWolf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardSharedAngecyWolfPara.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="55" column="99" lean-forward="true" selection-start-line="55" selection-start-column="99" selection-end-line="55" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/planningDemoNoSharedAgency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1441">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/2WolvesIntentionConvegency.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG3WolfSharedAgencyVSReward.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegencySharedAgency.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evluateInferenceCrossEntropyMovingSheep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="58" column="67" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp1_maybeFinal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG3WolfSharedAgencyVSIndividualRewardVSSharedReward.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/trajectoriesSaveLoad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1016">
+          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MDPChasing/RLrun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MDPChasing/envMADDPG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="92" column="47" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/myfileEval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="166" column="61" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3192">
+          <caret line="160" column="36" selection-start-line="160" selection-end-line="161" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="145" column="56" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MDPChasing/envMADDPG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MDPChasing/trajectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4240">
+          <caret line="302" selection-start-line="302" selection-end-line="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="700">
+            <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/runMADDPGchasing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum/planningDemo.py">
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/generateDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="176">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trajectory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MDPChasing/policies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithHierarchy/sampleTrajectoryWithNoHierarchy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1269">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/trainLevel2IndividualActionResNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="210" column="32" lean-forward="true" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evluateIntentionInPlanningMovingSheep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/policyValueResNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="292" column="47" lean-forward="true" selection-start-line="292" selection-start-column="47" selection-end-line="292" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#84#12495#0" />
-            <element signature="e#12515#15058#0" />
-            <element signature="e#15099#17207#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/policyValueNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#84#10590#0" />
-            <element signature="e#10610#13184#0" />
-            <element signature="e#13225#15231#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/visualizeNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/policyNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#70#5474#0" />
-            <element signature="e#5494#7740#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/neuralNetwork/trainTools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/mcts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

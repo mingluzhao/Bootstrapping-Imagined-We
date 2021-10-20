@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a211ef5-4a43-4213-ac31-5e1914d06e33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp2.py" beforeDir="false" afterPath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateWolvesType.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/runMADDPGchasing.py" beforeDir="false" afterPath="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/runMADDPGchasing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateWolvesType.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="565">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -28,64 +25,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/runMADDPGchasing.py">
+        <entry file="file://$PROJECT_DIR$/exec/perturbationStudy/evalPerturb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="189">
+              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#929#952#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/generateDemo.py">
+        <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/trajectoriesSaveLoad.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="412">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4240">
-              <caret line="302" selection-start-line="302" selection-end-line="302" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="460">
-                <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py">
+        <entry file="file://$PROJECT_DIR$/exec/perturbationStudy/generatePerturbed_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MDPChasing/trajectory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="674">
+              <caret line="428" column="10" lean-forward="true" selection-start-line="428" selection-start-column="10" selection-end-line="428" selection-end-column="10" />
+              <folding>
+                <element signature="e#1692#2318#0" />
+                <element signature="e#2365#3338#0" />
+                <element signature="e#3411#3980#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,13 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CalUncommittedAgentsPolicyLikelihood</find>
-      <find>layerWidth</find>
-      <find>deviationFor2DAction</find>
-      <find>intentionSpacesForAllWolves</find>
-      <find>valuePriorEndTime</find>
-      <find>sheepPrefix</find>
-      <find>reward</find>
       <find>rewardWolf</find>
       <find>sampleTrajectory</find>
       <find>wolfType</find>
@@ -115,7 +80,6 @@
       <find>percivedAction</find>
       <find>maxRunningSteps</find>
       <find>ComposeCentralControlPolicyByGaussianOnDeterministicAction</find>
-      <find>buildGaussian</find>
       <find>actOneStepOneModelSheep</find>
       <find>restore</find>
       <find>numAgentInWe</find>
@@ -131,6 +95,14 @@
       <find>wolfSelfish</find>
       <find>reshapeAction</find>
       <find>parameters</find>
+      <find>reset</find>
+      <find>forwardOne</find>
+      <find>actByPolicyTrainNoNoisy</find>
+      <find>buildGaussian</find>
+      <find>actOneStep</find>
+      <find>deviationFor2DAction</find>
+      <find>200</find>
+      <find>pick</find>
     </findStrings>
     <replaceStrings>
       <replace>sheepType</replace>
@@ -148,7 +120,6 @@
       <list>
         <option value="$PROJECT_DIR$/exec/runExperiment.py" />
         <option value="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves/trainLevel2IndividualActionResNet.py" />
-        <option value="$PROJECT_DIR$/src/mathTools/distribution.py" />
         <option value="$PROJECT_DIR$/src/MDPChasing/1.py" />
         <option value="$PROJECT_DIR$/src/MDPChasing/envNoPhysics.py" />
         <option value="$PROJECT_DIR$/src/MDPChasing/policy.py" />
@@ -178,28 +149,31 @@
         <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py" />
         <option value="$PROJECT_DIR$/src/MDPChasing/RLrun.py" />
         <option value="$PROJECT_DIR$/src/MDPChasing/envMADDPG.py" />
-        <option value="$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py" />
         <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency_edit.py" />
         <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp2.py" />
         <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy_edit.py" />
         <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py" />
-        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/generateDemo.py" />
         <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/runMADDPGchasing.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/generateDemo.py" />
+        <option value="$PROJECT_DIR$/exec/perturbationStudy.py" />
+        <option value="$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py" />
+        <option value="$PROJECT_DIR$/src/mathTools/distribution.py" />
+        <option value="$PROJECT_DIR$/exec/perturbationStudy/generatePerturbedActions.py" />
+        <option value="$PROJECT_DIR$/exec/perturbationStudy/evalPerturb.py" />
+        <option value="$PROJECT_DIR$/exec/perturbationStudy/generatePerturbed_all.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1024" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,36 +190,37 @@
               <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluatePerturbation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
+              <item name="exec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
+              <item name="exec" type="462c0819:PsiDirectoryNode" />
               <item name="evaluateHierarchyPlanningEnvMADDPG" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
               <item name="exec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
-              <item name="exec" type="462c0819:PsiDirectoryNode" />
-              <item name="evalResult" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bootstrapping-Imagined-We" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bootstrapping-Imagined-We" type="462c0819:PsiDirectoryNode" />
-              <item name="exec" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluateHierarchyPlanningEnvMADDPG" type="462c0819:PsiDirectoryNode" />
+              <item name="perturbationStudy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python&#10;TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exec/perturbationStudy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -259,7 +234,12 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exec/perturbationStudy" />
+      <recent name="$PROJECT_DIR$/exec" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exec/perturbationStudy" />
       <recent name="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
     </key>
   </component>
@@ -275,8 +255,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.generateDemo">
-    <configuration name="evaluateRewardTemp2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.evalPerturb">
+    <configuration name="evalPerturb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Bootstrapping-Imagined-We" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,12 +264,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/perturbationStudy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateWolvesType.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/perturbationStudy/evalPerturb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,7 +300,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sampleTrajectoryNoSharedAgency" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generatePerturbedActions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Bootstrapping-Imagined-We" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,12 +308,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/perturbationStudy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/perturbationStudy/singleTrajGenerate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,7 +322,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sampleTrajectoryNoSharedAgency_edit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generatePerturbed_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Bootstrapping-Imagined-We" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,12 +330,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exec/perturbationStudy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exec/perturbationStudy/generatePerturbed_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -388,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.evalPerturb" />
+        <item itemvalue="Python.generatePerturbed_all" />
+        <item itemvalue="Python.generatePerturbedActions" />
         <item itemvalue="Python.generateDemo" />
         <item itemvalue="Python.sampleTrajectorySharedAngecy_edit" />
-        <item itemvalue="Python.evaluateRewardTemp2" />
-        <item itemvalue="Python.sampleTrajectoryNoSharedAgency_edit" />
-        <item itemvalue="Python.sampleTrajectoryNoSharedAgency" />
       </list>
     </recent_temporary>
   </component>
@@ -410,36 +390,48 @@
       <workItem from="1613707283212" duration="598000" />
       <workItem from="1613712996920" duration="29190000" />
       <workItem from="1614726812500" duration="47637000" />
+      <workItem from="1616036541042" duration="426000" />
+      <workItem from="1617054261550" duration="1692000" />
+      <workItem from="1634662079771" duration="14452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79614000" />
+    <option name="totallyTimeSpent" value="96184000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1024" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2185008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13112392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.18874907" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3249445" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3330866" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.18869829" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62268806" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21331689" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.10797174" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32996973" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32938564" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.21835677" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32896066" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.31685168" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.33293462" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.740634" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -477,139 +469,92 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/src/algorithms/MADDPG/myMADDPG.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/sampleTrajectoryTools/trajectoriesSaveLoad.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/algorithms/MADDPG/myMADDPG.py</url>
+          <line>200</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exec/perturbationStudy/evalPerturb.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$trainLevel2IndividualActionResNet.coverage" NAME="trainLevel2IndividualActionResNet Coverage Results" MODIFIED="1613740272444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$generatePerturbed_all.coverage" NAME="generatePerturbed_all Coverage Results" MODIFIED="1634701028940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/perturbationStudy" />
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evluateIntentionInPlanningMovingSheep.coverage" NAME="evluateIntentionInPlanningMovingSheep Coverage Results" MODIFIED="1613627248509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec" />
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evaluateRewardTemp2.coverage" NAME="evaluateRewardTemp2 Coverage Results" MODIFIED="1615971198683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
-    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$generateDemo.coverage" NAME="generateDemo Coverage Results" MODIFIED="1615973000370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$planningDemo.coverage" NAME="planningDemo Coverage Results" MODIFIED="1613627131854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateIntentionInPlanningWithUnfixedIntentionNum" />
-    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectorySharedAngecy.coverage" NAME="sampleTrajectorySharedAngecy Coverage Results" MODIFIED="1615435465725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
-    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectorySharedAngecy_edit.coverage" NAME="sampleTrajectorySharedAngecy_edit Coverage Results" MODIFIED="1615972122319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evaluateRewardSharedAngecyWolfPara.coverage" NAME="evaluateRewardSharedAngecyWolfPara Coverage Results" MODIFIED="1615686278560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evaluateRewardTemp1.coverage" NAME="evaluateRewardTemp1 Coverage Results" MODIFIED="1615862231894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectoryNoSharedAgency.coverage" NAME="sampleTrajectoryNoSharedAgency Coverage Results" MODIFIED="1615959827699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
-    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evaluateRewardTemp.coverage" NAME="evaluateRewardTemp Coverage Results" MODIFIED="1615689408240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$generatePerturbedActions.coverage" NAME="generatePerturbedActions Coverage Results" MODIFIED="1634700080868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/perturbationStudy" />
     <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectoryNoSharedAgency_edit.coverage" NAME="sampleTrajectoryNoSharedAgency_edit Coverage Results" MODIFIED="1615963844162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$trainLevel2IndividualActionResNet.coverage" NAME="trainLevel2IndividualActionResNet Coverage Results" MODIFIED="1613740272444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/trainSecondLevelIndividualActionGivenRoughPolicy/train2Wolves" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$generateDemo.coverage" NAME="generateDemo Coverage Results" MODIFIED="1617064472607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectorySharedAngecy.coverage" NAME="sampleTrajectorySharedAngecy Coverage Results" MODIFIED="1615435465725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$sampleTrajectorySharedAngecy_edit.coverage" NAME="sampleTrajectorySharedAngecy_edit Coverage Results" MODIFIED="1615972122319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evalPerturb.coverage" NAME="evalPerturb Coverage Results" MODIFIED="1634704803512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/perturbationStudy" />
+    <SUITE FILE_PATH="coverage/Bootstrapping_Imagined_We$evaluateRewardTemp.coverage" NAME="evaluateRewardTemp Coverage Results" MODIFIED="1615689408240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>state[np.array([0, 1])]</expression-string>
+        <expression-string>statisticsDf</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>state[[0,1]]</expression-string>
+        <expression-string>statisticsDf.T</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>state[0, 1]</expression-string>
+        <expression-string>measurementMean</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>actions</expression-string>
+        <expression-string>trainAction</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>mergedTrajectories</expression-string>
+        <expression-string>softmax(trainAction, axis = 1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>filesNames</expression-string>
+        <expression-string>trajectory[37][2]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>genericSavePath</expression-string>
+        <expression-string>trajectory[37][1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.lastAction</expression-string>
+        <expression-string>trajectory[37]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jointHypothesisSpaces[1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>jointHypothesisSpaces[0]</expression-string>
+        <expression-string>timeStepPercentChange</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exec/evaluateObstacle/sampleTrajectory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="195" column="28" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanning/sampleTrajectoryWithNoHierarchy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-941">
-          <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateCompeteDetection/sampleTrajectoryNNCompete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="264" column="43" selection-start-line="264" selection-start-column="26" selection-end-line="264" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanning/sampleTrajectoryWithHierarchyLevel2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1594">
-          <caret line="195" column="28" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateCompeteDetection/sampleTrajectoryHeatSeeking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="178" column="45" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inference/percept.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="45" column="89" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MDPChasing/state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanning/sampleTrajectoryWithHierarchyLevel2.py" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateCompeteDetection/sampleTrajectoryHeatSeeking.py" />
     <entry file="file://$PROJECT_DIR$/src/inference/inference.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -620,180 +565,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/MADDPG/myMADDPG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="183" column="8" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/resetObjectsForMultipleTrjaectory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mathTools/distribution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inference/intention.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/2WolvesIntentionConvegencyDiffBeta.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegency.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegencyDiffBeta.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/convergeRate.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGBiggerNoiseForInfer.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfTypeTemp1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfTypeTemp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfType.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGDiffBeta.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/testCentralControl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/diagnoseAnalysis/hierarchyActionDiffFromJoint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3644">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardDiffTypeWolf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardSharedAngecyWolfPara.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="55" column="99" lean-forward="true" selection-start-line="55" selection-start-column="99" selection-end-line="55" selection-end-column="99" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/planningDemoNoSharedAgency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1441">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/2WolvesIntentionConvegency.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/evaluation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG3WolfSharedAgencyVSReward.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegencySharedAgency.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evluateInferenceCrossEntropyMovingSheep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="58" column="67" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp1_maybeFinal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG3WolfSharedAgencyVSIndividualRewardVSSharedReward.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/trajectoriesSaveLoad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/2WolvesIntentionConvegencyDiffBeta.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegency.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegencyDiffBeta.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/convergeRate.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGBiggerNoiseForInfer.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfTypeTemp1.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfTypeTemp.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGWolfType.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPGDiffBeta.png" />
+    <entry file="file://$PROJECT_DIR$/tests/testCentralControl.py" />
+    <entry file="file://$PROJECT_DIR$/exec/diagnoseAnalysis/hierarchyActionDiffFromJoint.py" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardDiffTypeWolf.py" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardSharedAngecyWolfPara.py" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/planningDemoNoSharedAgency.py" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/2WolvesIntentionConvegency.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG3WolfSharedAgencyVSReward.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/3WolvesIntentionConvegencySharedAgency.png" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evluateInferenceCrossEntropyMovingSheep.py" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp.py" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateRewardTemp1_maybeFinal.py" />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/RewardMADDPG3WolfSharedAgencyVSIndividualRewardVSSharedReward.png" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1016">
@@ -811,57 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MDPChasing/envMADDPG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="92" column="47" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/myfileEval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="166" column="61" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateWolvesType.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3192">
-          <caret line="160" column="36" selection-start-line="160" selection-end-line="161" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="145" column="56" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/myfileEval.py" />
     <entry file="file://$PROJECT_DIR$/src/MDPChasing/envMADDPG.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -869,54 +612,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MDPChasing/trajectory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py">
+    <entry file="file://$PROJECT_DIR$/src/MDPChasing/state.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        <state relative-caret-position="392">
+          <caret line="29" column="99" selection-start-line="29" selection-start-column="99" selection-end-line="29" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/resetObjectsForMultipleTrjaectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inference/intention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/evaluateHierarchyPlanningEnvMADDPG/trajectories/maxRunningStepsToSample=101_numSheep=1_numWolves=3_sheepConcern=selfSheep_wolfType=individualReward.pickle">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MDPChasing/trajectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectorySharedAngecy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4240">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
+        <state relative-caret-position="4822">
+          <caret line="281" column="27" selection-start-line="281" selection-start-column="27" selection-end-line="281" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/generateDemo.py">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/pandas/core/arrays/categorical.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="179">
+          <caret line="2683" selection-start-line="2683" selection-end-line="2683" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/sampleTrajectoryNoSharedAgency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="145" column="56" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/runMADDPGchasing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="-818">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="460">
-            <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/generateDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1018">
+          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inference/percept.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/evaluateHierarchyPlanningEnvMADDPG/evaluateWolvesType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mathTools/distribution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/scipy/special/_logsumexp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generateAction/imaginedWeSampleAction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/MADDPG/myMADDPG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="199" column="21" selection-start-line="199" selection-start-column="21" selection-end-line="199" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/perturbationStudy/singleTrajGenerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#1688#2314#0" />
+            <element signature="e#2345#3158#0" />
+            <element signature="e#2389#2958#0" />
+            <element signature="e#5553#7331#0" />
+            <element signature="e#16346#16775#0" />
+            <element signature="e#16810#17038#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/perturbationStudy/evalPerturb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+          <folding>
+            <element signature="e#929#952#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sampleTrajectoryTools/trajectoriesSaveLoad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/perturbationStudy/generatePerturbed_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="428" column="10" lean-forward="true" selection-start-line="428" selection-start-column="10" selection-end-line="428" selection-end-column="10" />
+          <folding>
+            <element signature="e#1692#2318#0" />
+            <element signature="e#2365#3338#0" />
+            <element signature="e#3411#3980#0" />
+          </folding>
         </state>
       </provider>
     </entry>

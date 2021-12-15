@@ -14,7 +14,7 @@ from src.sampleTrajectoryTools.trajectoriesSaveLoad import GetSavePath, LoadTraj
 
 def main():
     DIRNAME = os.path.dirname(__file__)
-    trajectoryDirectory = os.path.join(DIRNAME, '..', '..', 'data', 'evaluateGoalPerturbation', 'trajectories')
+    trajectoryDirectory = os.path.join(DIRNAME, '..', '..', 'data', 'evaluateGoalPerturbationHighLevel', 'trajectories')
     if not os.path.exists(trajectoryDirectory):
         os.makedirs(trajectoryDirectory)
     
@@ -27,14 +27,21 @@ def main():
     loadTrajectories = LoadTrajectories(getTrajectorySavePath, loadFromPickle)
     numWolves = 3
     numSheep = 2
-    wolfType = 'individualReward'
-    sheepConcern = 'selfSheep'
+    wolfType = 'sharedAgencyByIndividualRewardWolf' # sharedReward, sharedAgencyByIndividualRewardWolf
     perturbedWolfID = 0
+    perturbedWolfGoalID = 0
     perturbed = 1
+    # trajectoryParameters = {'numWolves': numWolves, 'numSheep': numSheep, 'wolfType': wolfType,
+    #                         'perturbedWolfID': perturbedWolfID,
+    #                         'sheepConcern': 'selfSheep'}
 
-    trajectoryParameters = {'numWolves': numWolves, 'numSheep': numSheep, 'wolfType': wolfType, 'perturbedWolfID': perturbedWolfID,
-                            'sheepConcern': sheepConcern, 'perturbed': perturbed}
-    trajectories = loadTrajectories(trajectoryParameters) 
+    if perturbed:
+        trajectoryParameters = {'numWolves': numWolves, 'numSheep': numSheep, 'wolfType': wolfType, 'perturbedWolfID': perturbedWolfID,
+                                'perturbedWolfGoalID': perturbedWolfGoalID}
+    else:
+        trajectoryParameters = {'numWolves': numWolves, 'numSheep': numSheep, 'wolfType': wolfType}
+
+    trajectories = loadTrajectories(trajectoryParameters)
     # generate demo image
     screenWidth = 700
     screenHeight = 700
@@ -55,8 +62,10 @@ def main():
     targetSheepColor = [0, 100, 0]
 
     wolvesColor = [wolfColor] * numWolves
-    wolvesColor[perturbedWolfID] = perturbedWolfColor
-    sheepColorList = [targetSheepColor] + [sheepColor]* (numSheep - 1) if perturbed else [sheepColor] * numSheep
+    wolvesColor[perturbedWolfID] = perturbedWolfColor if perturbed else wolfColor
+    sheepColorList = [sheepColor] * numSheep
+    sheepColorList[perturbedWolfGoalID] = targetSheepColor  if perturbed else [sheepColor] * numSheep
+
     circleColorSpace = wolvesColor + sheepColorList + [blockColor] * numBlocks
     # viewRatio = 1.5
     # sheepSize = int(0.05 * screenWidth / (2 * viewRatio))
@@ -102,9 +111,10 @@ def main():
         for trajectory in trajectories])
     flags = maxWolfPositions < 1.3 * viewRatio
     index = flags.nonzero()[0]
-    print(trajectories[0][1])
+    # print(trajectories[0])
     # state, action, actionPerturbed, nextState, nextStatePerturbed, reward
-    [chaseTrial(trajectory) for trajectory in np.array(trajectories)[index[[0, 2, 3]]]]
+    # [chaseTrial(trajectory) for trajectory in np.array(trajectories)[index[[0, 2, 3]]]]
+    [chaseTrial(trajectory) for trajectory in np.array(trajectories)[list(range(5))]]
 
 if __name__ == '__main__':
     main()

@@ -36,30 +36,6 @@ from src.sampleTrajectoryTools.trajectoriesSaveLoad import GetSavePath, saveToPi
 
 # Change sheep policy to be to act by no noisy actions
 
-class SampleTrajectoryWithPerturbation:
-    def __init__(self, maxRunningSteps, isTerminal, resetState, forwardOneStep):
-        self.maxRunningSteps = maxRunningSteps
-        self.isTerminal = isTerminal
-        self.resetState = resetState
-        self.forwardOneStep = forwardOneStep
-
-    def __call__(self, sampleAction, samplePerturbedAction):
-        state = self.resetState()
-        while self.isTerminal(state):
-            state = self.resetState()
-        trajectory = []
-        for runningStep in range(self.maxRunningSteps):
-            if self.isTerminal(state):
-                trajectory.append((state, None, None, None, None, 0))
-                break
-
-            state, actionPerturbed, nextStatePerturbed, rewardPerturbed = self.forwardOneStep(state, samplePerturbedAction)
-            state, action, nextState, reward = self.forwardOneStep(state, sampleAction)
-
-            trajectory.append((state, action, actionPerturbed, nextState, nextStatePerturbed, reward))
-            state = nextState
-
-        return trajectory
 
 
 class ComposeCentralControlPolicyByGaussianOnDeterministicAction:
@@ -92,9 +68,9 @@ class SampleTrjactoriesForConditions:
         numWolves = parameters['numWolves']
         numSheep = parameters['numSheep']
         wolfType = parameters['wolfType']
-        sheepConcern = parameters['sheepConcern']
         wolfSelfish = 0.0 if wolfType == 'sharedAgencyBySharedRewardWolf' else 1.0
         perturbedWolfID = parameters['perturbedWolfID']
+        perturbedWolfGoalID = parameters['perturbedWolfGoalID']
 
         ## MDP Env
         numBlocks = 2
@@ -136,10 +112,10 @@ class SampleTrjactoriesForConditions:
 
         forwardOneStep = ForwardOneStep(transit, rewardWolf)
 
-        reset = ResetMultiAgentChasing(numAgents, numBlocks)
+        reset = ResetMultiAgentChasingWithSeed(numAgents, numBlocks)
         isTerminal = lambda state: False
         maxRunningStepsToSample = 101
-        sampleTrajectory = SampleTrajectoryWithPerturbation(maxRunningStepsToSample, isTerminal, reset, forwardOneStep)
+        sampleTrajectory = SampleTrajectory(maxRunningStepsToSample, isTerminal, reset, forwardOneStep)
 
         ## MDP Policy
         worldDim = 2
@@ -151,7 +127,6 @@ class SampleTrjactoriesForConditions:
         dirName = os.path.dirname(__file__)
 
         # ------------ sheep recover variables ------------------------
-        sheepConcernSelfOnly = 1 if sheepConcern == 'selfSheep' else 0
         numSheepToObserve = 1
         sheepModelListOfDiffWolfReward = []
         sheepTypeList = [0.0, 1.0]
@@ -337,12 +312,12 @@ class SampleTrjactoriesForConditions:
         # ------------------- recover one wolf model that only concerns sheep 0 -------------------
         numSheepForPerturbedWolf = 1
         wolvesIDForPerturbedWolf = wolvesID
-        sheepsIDForPerturbedWolf = list(range(numWolves, numWolves + numSheepForPerturbedWolf))
+        sheepsIDForPerturbedWolf = [sheepsID[perturbedWolfGoalID]]
         blocksIDForPerturbedWolf = list(range(numWolves + numSheep, numEntities)) # skip the unattended sheep id
 
         observeOneAgentForPerturbedWolf = lambda agentID: Observe(agentID, wolvesIDForPerturbedWolf, sheepsIDForPerturbedWolf,
                 blocksIDForPerturbedWolf, getPosFromAgentState, getVelFromAgentState)
-        observePerturbedWolf = lambda state: [observeOneAgentForPerturbedWolf(agentID)(state) for agentID in range(numWolves + numSheepForPerturbedWolf)]
+        observePerturbedWolf = lambda state: [observeOneAgentForPerturbedWolf(agentID)(state) for agentID in wolvesIDForPerturbedWolf + sheepsIDForPerturbedWolf]
 
         initObsForPerturbedWolfParams = observePerturbedWolf(reset())
         obsShapePerturbedWolf = [initObsForPerturbedWolfParams[obsID].shape[0] for obsID in range(len(initObsForPerturbedWolfParams))]
@@ -372,29 +347,28 @@ class SampleTrjactoriesForConditions:
         for trajectoryId in range(self.numTrajectories):
             sheepModelsForPolicy = [sheepModelListOfDiffWolfReward[np.random.choice(numAllSheepModels)] for sheepId in
                                     sheepsID]
-            if sheepConcernSelfOnly:
-                composeSheepPolicy = lambda sheepModel: lambda state: {
-                    tuple(reshapeAction(actOneStep(sheepModel, observeSheep(state)))): 1}
-                sheepChooseActionMethod = sampleFromDistribution
-                sheepSampleActions = [SampleActionOnFixedIntention(selfId, wolvesID, composeSheepPolicy(sheepModel),
-                                                                   sheepChooseActionMethod, blocksID)
-                                      for selfId, sheepModel in zip(sheepsID, sheepModelsForPolicy)]
-            else:
-                composeSheepPolicy = lambda sheepModel: lambda state: tuple(
-                    reshapeAction(actOneStep(sheepModel, observeSheep(state))))
-                sheepSampleActions = [composeSheepPolicy(sheepModel) for sheepModel in sheepModelsForPolicy]
-
+            composeSheepPolicy = lambda sheepModel: lambda state: {
+                tuple(reshapeAction(actOneStep(sheepModel, observeSheep(state)))): 1}
+            sheepChooseActionMethod = sampleFromDistribution
+            sheepSampleActions = [SampleActionOnFixedIntention(selfId, wolvesID, composeSheepPolicy(sheepModel),
+                                                               sheepChooseActionMethod, blocksID)
+                                  for selfId, sheepModel in zip(sheepsID, sheepModelsForPolicy)]
             allIndividualSampleActions = wolvesSampleActions + sheepSampleActions
+
             sampleActionMultiAgent = SampleActionMultiagent(allIndividualSampleActions, recordActionForUpdateIntention)
 
             allIndividualSampleActionsPerturbed = wolvesSampleActionsPerturbed + sheepSampleActions
             sampleActionMultiAgentPerturbed = SampleActionMultiagent(allIndividualSampleActionsPerturbed, recordActionForUpdateIntention)
 
-            trajectory = sampleTrajectory(sampleActionMultiAgent, sampleActionMultiAgentPerturbed)
-            intentionDistributions = getIntentionDistributions()
-            trajectoryWithIntentionDists = [tuple(list(SASRPair) + list(intentionDist)) for SASRPair, intentionDist in
-                                            zip(trajectory, intentionDistributions)]
-            trajectoriesWithIntentionDists.append(tuple(trajectoryWithIntentionDists))
+            # trajectory = sampleTrajectory(sampleActionMultiAgentPerturbed)
+            trajectory = sampleTrajectory(sampleActionMultiAgentPerturbed)
+
+            # TODO: don't have intention dist in traj here
+            # intentionDistributions = getIntentionDistributions()
+            # trajectoryWithIntentionDists = [tuple(list(SASRPair) + list(intentionDist)) for SASRPair, intentionDist in
+            #                                 zip(trajectory, intentionDistributions)]
+            # trajectoriesWithIntentionDists.append(tuple(trajectoryWithIntentionDists))
+            trajectoriesWithIntentionDists.append(trajectory)
             resetIntentions()
         trajectoryFixedParameters = {'maxRunningStepsToSample': maxRunningStepsToSample}
         self.saveTrajectoryByParameters(trajectoriesWithIntentionDists, trajectoryFixedParameters, parameters)
@@ -405,15 +379,15 @@ def main():
     manipulatedVariables = OrderedDict()
     manipulatedVariables['numWolves'] = [3]
     manipulatedVariables['numSheep'] = [2] # [1, 2, 4]
-    manipulatedVariables['sheepConcern'] = ['selfSheep']
     manipulatedVariables['wolfType'] = ['sharedAgencyByIndividualRewardWolf']
-    manipulatedVariables['perturbedWolfID'] = [1, 2]
+    manipulatedVariables['perturbedWolfID'] = [0]
+    manipulatedVariables['perturbedWolfGoalID'] = [0, 1]
 
     productedValues = it.product(*[[(key, value) for value in values] for key, values in manipulatedVariables.items()])
     parametersAllCondtion = [dict(list(specificValueParameter)) for specificValueParameter in productedValues]
 
     DIRNAME = os.path.dirname(__file__)
-    trajectoryDirectory = os.path.join(DIRNAME, '..', '..', 'data', 'evaluateGoalPerturbationSharedAgency',
+    trajectoryDirectory = os.path.join(DIRNAME, '..', '..', 'data', 'evaluateGoalPerturbationHighLevel',
                                        'trajectories')
     if not os.path.exists(trajectoryDirectory):
         os.makedirs(trajectoryDirectory)
@@ -425,7 +399,7 @@ def main():
                                                                                                           getTrajectorySavePath(
                                                                                                               trajectoryFixedParameters)(
                                                                                                               parameters))
-    numTrajectories = 50#100
+    numTrajectories = 20
     sampleTrajectoriesForConditions = SampleTrjactoriesForConditions(numTrajectories, saveTrajectoryByParameters)
     [sampleTrajectoriesForConditions(para) for para in parametersAllCondtion]
 

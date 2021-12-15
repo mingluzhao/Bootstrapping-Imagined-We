@@ -126,6 +126,27 @@ class ResetMultiAgentChasing:
         state = np.array(agentsState + blocksState)
         return state
 
+class ResetMultiAgentChasingWithSeed:
+    def __init__(self, numTotalAgents, numBlocks):
+        self.positionDimension = 2
+        self.numTotalAgents = numTotalAgents
+        self.numBlocks = numBlocks
+        self.seed = 0
+
+    def __call__(self):
+        np.random.seed(self.seed)
+        getAgentRandomPos = lambda: np.random.uniform(-1, +1, self.positionDimension)
+        getAgentRandomVel = lambda: np.zeros(self.positionDimension)
+        agentsState = [list(getAgentRandomPos()) + list(getAgentRandomVel()) for ID in range(self.numTotalAgents)]
+
+        getBlockRandomPos = lambda: np.random.uniform(-0.9, +0.9, self.positionDimension)
+        getBlockSpeed = lambda: np.zeros(self.positionDimension)
+
+        blocksState = [list(getBlockRandomPos()) + list(getBlockSpeed()) for blockID in range(self.numBlocks)]
+        state = np.array(agentsState + blocksState)
+        self.seed = self.seed + 1
+        return state
+
 
 class Observe:
     def __init__(self, agentID, wolvesID, sheepsID, blocksID, getPosFromState, getVelFromAgentState):

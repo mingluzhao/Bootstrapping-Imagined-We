@@ -22,8 +22,8 @@ class CalculatePercentageActionChange:
     def __call__(self, trajectory):
         timeStepPercentChange = []
         for timestepInfo in trajectory:
-            actionAtInterestedDim = np.round(timestepInfo[1][self.agentID][self.interestedDim], 3)
-            actionPerturbedAtInterestedDim = np.round(timestepInfo[2][self.agentID][self.interestedDim], 3)
+            actionAtInterestedDim = np.round(timestepInfo[1][self.agentID][self.interestedDim], 2)
+            actionPerturbedAtInterestedDim = np.round(timestepInfo[2][self.agentID][self.interestedDim], 2)
             diff = actionPerturbedAtInterestedDim - actionAtInterestedDim
             percentChange = abs(diff/actionAtInterestedDim) *100 if actionAtInterestedDim!= 0 else 100
             timeStepPercentChange.append(percentChange)
@@ -75,6 +75,8 @@ def evalPerturbationPercent(df):
 
 
 def main():
+    load = 1
+
     manipulatedVariables = OrderedDict()
     manipulatedVariables['numWolves'] = [3]
     manipulatedVariables['numSheep'] = [1, 2, 4]
@@ -86,30 +88,29 @@ def main():
     manipulatedVariables['interestedDim'] = [0, 1]
     manipulatedVariables['interestedAgentID'] = [0, 1, 2]
 
-    # levelNames = list(manipulatedVariables.keys())
-    # levelValues = list(manipulatedVariables.values())
-    # modelIndex = pd.MultiIndex.from_product(levelValues, names=levelNames)
-    # toSplitFrame = pd.DataFrame(index=modelIndex)
-    #
-    # statisticsDf = toSplitFrame.groupby(levelNames).apply(evalPerturbationPercent)
-    # print(statisticsDf)
-    #
-    resultPath = os.path.join(dirName, '..', 'evalResults')
+    resultPath = os.path.join(dirName, '..', '..', 'evalResults')
     if not os.path.exists(resultPath):
         os.makedirs(resultPath)
-
     resultLoc = os.path.join(resultPath, 'evalPerturbResult.pkl')
-    # saveToPickle(statisticsDf, resultLoc)
 
-    # print('saved to evalPerturbResult.pkl')
+    if not load:
+        levelNames = list(manipulatedVariables.keys())
+        levelValues = list(manipulatedVariables.values())
+        modelIndex = pd.MultiIndex.from_product(levelValues, names=levelNames)
+        toSplitFrame = pd.DataFrame(index=modelIndex)
 
-    statisticsDf = loadFromPickle(resultLoc)
+        statisticsDf = toSplitFrame.groupby(levelNames).apply(evalPerturbationPercent)
+        print(statisticsDf)
+        saveToPickle(statisticsDf, resultLoc)
+    else:
+        statisticsDf = loadFromPickle(resultLoc)
+        # print(statisticsDf)
 
     toSplitFrame = statisticsDf.groupby(['numWolves', 'numSheep', 'sheepConcern', 'wolfType', 'perturbAgentID', 'perturbQuantile',
          'interestedAgentID']).apply(np.mean)
     resultDF = toSplitFrame[toSplitFrame.index.get_level_values('perturbAgentID') != toSplitFrame.index.get_level_values('interestedAgentID')]
 
-    # print(resultDF)
+    print(resultDF)
 
     figure = plt.figure(figsize=(10, 10))
     plotCounter = 1

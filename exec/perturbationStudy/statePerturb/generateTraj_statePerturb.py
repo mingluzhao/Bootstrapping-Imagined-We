@@ -318,7 +318,7 @@ class SampleTrjactoriesForConditions:
         recordActionForUpdateIntention = RecordValuesForObjects(attributesToRecord, updateIntentions)
 
         # Wovels Generate Action #TODO
-        covForPlanning = [0.000001 for _ in range(actionDimReshaped)]
+        covForPlanning = [0.00000001 for _ in range(actionDimReshaped)]
         # covForPlanning = [0.03 ** 2 for _ in range(actionDimReshaped)]
         buildGaussianForPlanning = BuildGaussianFixCov(covForPlanning)
         composeCentralControlPolicyForPlanning = lambda \
@@ -357,23 +357,13 @@ class SampleTrjactoriesForConditions:
         for trajectoryId in range(self.numTrajectories):
             sheepModelsForPolicy = [sheepModelListOfDiffWolfReward[np.random.choice(numAllSheepModels)] for sheepId in
                                     sheepsID]
-            if sheepConcernSelfOnly:
-                composeSheepPolicy = lambda sheepModel: lambda state: {
-                    tuple(reshapeAction(actOneStep(sheepModel, observeSheep(state)))): 1}
-                sheepChooseActionMethod = sampleFromDistribution
-                sheepSampleActions = [SampleActionOnFixedIntention(selfId, wolvesID, composeSheepPolicy(sheepModel),
-                                                                   sheepChooseActionMethod, blocksID)
-                                      for selfId, sheepModel in zip(sheepsID, sheepModelsForPolicy)]
-            else:
-                composeSheepPolicy = lambda sheepModel: lambda state: tuple(
-                    reshapeAction(actOneStep(sheepModel, observeSheep(state))))
-                sheepSampleActions = [composeSheepPolicy(sheepModel) for sheepModel in sheepModelsForPolicy]
-
-            wolvesSampleActions = [
-                SampleActionOnChangableIntention(updateIntention, wolvesSampleIndividualActionGivenIntention)
-                for updateIntention, wolvesSampleIndividualActionGivenIntention in
-                zip(updateIntentions, wolvesSampleIndividualActionGivenIntentionList)]
-            allIndividualSampleActions = wolvesSampleActions + sheepSampleActions
+            composeSheepPolicy = lambda sheepModel: lambda state: {
+                tuple(reshapeAction(actOneStep(sheepModel, observeSheep(state)))): 1}
+            sheepChooseActionMethod = sampleFromDistribution
+            sheepSampleActions = [SampleActionOnFixedIntention(selfId, wolvesID, composeSheepPolicy(sheepModel),
+                                                               sheepChooseActionMethod, blocksID)
+                                  for selfId, sheepModel in zip(sheepsID, sheepModelsForPolicy)]
+            allIndividualSampleActions = wolvesSampleIndividualActionGivenIntentionList + sheepSampleActions
             sampleActionMultiAgent = SampleActionMultiagent(allIndividualSampleActions, recordActionForUpdateIntention)
 
             # perturbation -------------------

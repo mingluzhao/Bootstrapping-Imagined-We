@@ -10,7 +10,11 @@ from pygame.color import THECOLORS
 
 from src.visualization.drawDemo import DrawBackground, DrawCircleOutsideEnvMADDPG, DrawStateEnvMADDPG, ChaseTrialWithTraj
 from src.sampleTrajectoryTools.trajectoriesSaveLoad import GetSavePath, LoadTrajectories, loadFromPickle
-
+white = [255, 255, 255]
+green = [0, 250, 0]
+grey = [200, 200, 200]
+blue = [40, 80, 200]
+red = [255, 0, 0]
 
 def main():
     DIRNAME = os.path.dirname(__file__)
@@ -27,14 +31,10 @@ def main():
     loadTrajectories = LoadTrajectories(getTrajectorySavePath, loadFromPickle)
     numWolves = 3
     numSheep = 2
-    wolfType = 'sharedAgencyByIndividualRewardWolf' # sharedReward, sharedAgencyByIndividualRewardWolf
+    wolfType = 'individualReward' # sharedReward, sharedAgencyByIndividualRewardWolf
     perturbedWolfID = 0
-    perturbedWolfGoalID = 0
-    perturbed = 1
-    # trajectoryParameters = {'numWolves': numWolves, 'numSheep': numSheep, 'wolfType': wolfType,
-    #                         'perturbedWolfID': perturbedWolfID,
-    #                         'sheepConcern': 'selfSheep'}
-
+    perturbedWolfGoalID = 1
+    perturbed = 0
     if perturbed:
         trajectoryParameters = {'numWolves': numWolves, 'numSheep': numSheep, 'wolfType': wolfType, 'perturbedWolfID': perturbedWolfID,
                                 'perturbedWolfGoalID': perturbedWolfGoalID}
@@ -55,22 +55,17 @@ def main():
     
     FPS = 10
     numBlocks = 2
-    perturbedWolfColor = [255,160,122]
-    wolfColor = [255, 255, 255]
-    sheepColor = [0, 250, 0]
-    blockColor = [200, 200, 200]
-    targetSheepColor = [0, 100, 0]
+    wolfColor = white
+    perturbedWolfColor = blue
+    sheepColor = green
+    perturbedSheepColor = blue
+    blockColor = grey
 
     wolvesColor = [wolfColor] * numWolves
     wolvesColor[perturbedWolfID] = perturbedWolfColor if perturbed else wolfColor
     sheepColorList = [sheepColor] * numSheep
-    sheepColorList[perturbedWolfGoalID] = targetSheepColor  if perturbed else [sheepColor] * numSheep
-
+    sheepColorList[perturbedWolfGoalID] = perturbedSheepColor if perturbed else sheepColor
     circleColorSpace = wolvesColor + sheepColorList + [blockColor] * numBlocks
-    # viewRatio = 1.5
-    # sheepSize = int(0.05 * screenWidth / (2 * viewRatio))
-    # wolfSize = int(0.075 * screenWidth / (3 * viewRatio))
-    # blockSize = int(0.2 * screenWidth / (3 * viewRatio))
 
     sheepSize = int(0.05 * screenWidth/2)
     wolfSize = int(0.075 * screenWidth/2)
@@ -91,7 +86,7 @@ def main():
     
     updateColorSpaceByPosterior = None
     outsideCircleAgentIds = imaginedWeIdsForInferenceSubject
-    outsideCircleColor = np.array([[255, 0, 0]] * numWolves)
+    outsideCircleColor = np.array([red] * numWolves)
     outsideCircleSize = int(wolfSize * 1.5)
     viewRatio = 1
     drawCircleOutside = DrawCircleOutsideEnvMADDPG(screen, viewRatio, outsideCircleAgentIds, positionIndex, outsideCircleColor, outsideCircleSize)
@@ -104,16 +99,7 @@ def main():
     actionIndexInTimeStep = 1
     posteriorIndexInTimeStep = None
     chaseTrial = ChaseTrialWithTraj(stateIndexInTimeStep, drawState, interpolateState, actionIndexInTimeStep, posteriorIndexInTimeStep)
-    
-    maxWolfPositions = np.array([max([max([max(abs(timeStep[0][wolfId][0]), abs(timeStep[0][wolfId][1]))
-        for wolfId in range(numWolves)]) 
-        for timeStep in trajectory])
-        for trajectory in trajectories])
-    flags = maxWolfPositions < 1.3 * viewRatio
-    index = flags.nonzero()[0]
-    # print(trajectories[0])
-    # state, action, actionPerturbed, nextState, nextStatePerturbed, reward
-    # [chaseTrial(trajectory) for trajectory in np.array(trajectories)[index[[0, 2, 3]]]]
+
     [chaseTrial(trajectory) for trajectory in np.array(trajectories)[list(range(5))]]
 
 if __name__ == '__main__':

@@ -270,7 +270,7 @@ class SampleTrjactoriesForConditions:
             for intentionPrior in wolvesIntentionPriors]
         resetIntentions = ResetObjects(intentionResetAttributeValues, updateIntentions)
         returnAttributes = ['formerIntentionPriors']
-        getIntentionDistributions = GetObjectsValuesOfAttributes(returnAttributes, updateIntentions)
+        getIntentionDistributions = GetObjectsValuesOfAttributes(returnAttributes, updateIntentions[1:])
         attributesToRecord = ['lastAction']
         recordActionForUpdateIntention = RecordValuesForObjects(attributesToRecord, updateIntentions)
 
@@ -339,7 +339,7 @@ class SampleTrjactoriesForConditions:
             zip(updateIntentions, wolvesSampleIndividualActionGivenIntentionList)]
 
         perturbedWolfSampleActions = lambda state: tuple(reshapeAction(actOneStep(perturbedWolfModel, observePerturbedWolf(state))))
-        wolvesSampleActionsPerturbed = wolvesSampleActions.copy()
+        wolvesSampleActionsPerturbed = wolvesSampleActions#.copy()
         wolvesSampleActionsPerturbed[perturbedWolfID] = perturbedWolfSampleActions
 
 
@@ -363,12 +363,11 @@ class SampleTrjactoriesForConditions:
             # trajectory = sampleTrajectory(sampleActionMultiAgentPerturbed)
             trajectory = sampleTrajectory(sampleActionMultiAgentPerturbed)
 
-            # TODO: don't have intention dist in traj here
-            # intentionDistributions = getIntentionDistributions()
-            # trajectoryWithIntentionDists = [tuple(list(SASRPair) + list(intentionDist)) for SASRPair, intentionDist in
-            #                                 zip(trajectory, intentionDistributions)]
-            # trajectoriesWithIntentionDists.append(tuple(trajectoryWithIntentionDists))
-            trajectoriesWithIntentionDists.append(trajectory)
+            intentionDistributions = getIntentionDistributions()
+            trajectoryWithIntentionDists = [tuple(list(SASRPair) + list(intentionDist)) for SASRPair, intentionDist in
+                                            zip(trajectory, intentionDistributions)]
+            trajectoriesWithIntentionDists.append(tuple(trajectoryWithIntentionDists))
+            # trajectoriesWithIntentionDists.append(trajectory)
             resetIntentions()
         trajectoryFixedParameters = {'maxRunningStepsToSample': maxRunningStepsToSample}
         self.saveTrajectoryByParameters(trajectoriesWithIntentionDists, trajectoryFixedParameters, parameters)

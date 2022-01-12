@@ -124,7 +124,7 @@ class DrawStateEnvMADDPG:
         
         self.drawBackGround()
         if posterior and self.updateColorByPosterior:
-            circleColors = self.updateColorByPosterior(self.colorSpace, posterior)
+            circleColors = self.updateColorByPosterior(posterior)
         else:
             circleColors = self.colorSpace
         if self.drawCircleOutside:
@@ -157,7 +157,9 @@ class InterpolateState:
             interpolatedStates.append(nextState)
             state = nextState
             actionForInterpolation = nextActionForInterpolation
+
         return interpolatedStates
+
 
 class ChaseTrialWithTraj:
     def __init__(self, stateIndex, drawState, interpolateState = None, actionIndex = None, posteriorIndex = None):
@@ -172,10 +174,8 @@ class ChaseTrialWithTraj:
             timeStep = trajectory[timeStepIndex]
             state = timeStep[self.stateIndex]
             action = timeStep[self.actionIndex]
-            if self.posteriorIndex:
-                posterior = timeStep[self.posteriorIndex] 
-            else:
-                posterior = None
+            posterior = timeStep[self.posteriorIndex] if self.posteriorIndex else None
+
             if self.interpolateState and timeStepIndex!= len(trajectory) - 1:
                 statesToDraw = self.interpolateState(state, action)
             else:
@@ -183,3 +183,6 @@ class ChaseTrialWithTraj:
             for state in statesToDraw:
                 screen = self.drawState(state, posterior)
         return
+
+
+

@@ -1,5 +1,5 @@
 # Bootstrapping Imagined We
-
+Source code for Tang, Ning, Stephanie Stacy, Minglu Zhao, Gabriel Marquez, and Tao Gao. "Bootstrapping an Imagined We for Cooperation." In CogSci. 2020.
 
 ### Required Packages
 
